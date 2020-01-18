@@ -295,9 +295,9 @@ footer .copyright {
     }
     
     .main-header .navbar ul {
-	display:flex;
-	justify-content:space-evenly;
-	width:100%;
+	    display:flex;
+	    justify-content:space-evenly;
+	    width:100%;
     }
     
     .main-header .header-img{
@@ -310,13 +310,24 @@ footer .copyright {
 
 @media (max-width:767px){
     
+/*
     .main-header .navbar {
 	    display:flex;
-        flex-direction:wrap;
+        flex-direction:column-reverse;
     }
+    
+    .main-header .navbar ul {
+	    display:flex;
+        flex-direction:column;
+	    justify-content:space-evenly;
+	    width:100%;
+    }
+*/
     
     body{
         background-color:red;
+        display:flex;
+        flex-direction:column;
     }
     
 }
